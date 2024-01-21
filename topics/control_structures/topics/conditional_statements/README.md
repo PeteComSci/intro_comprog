@@ -111,11 +111,11 @@ else:
 print("Result:", result)
 
 ```
-
 In this Python code:
-- A dictionary `operation_dict` is used to map strings (like 'add', 'subtract') to corresponding function calls.
-- `operation_dict.get()` attempts to retrieve the function based on the user's input and executes it with `num1` and `num2` as arguments.
-- If the operation is not found, a default lambda function returns "Invalid operation".
+- We first check if the `operation` input by the user exists in the `operation_dict`.
+- If it does, we retrieve the corresponding function from the dictionary and execute it with `num1` and `num2` as arguments.
+- If it does not, we set `result` to "Invalid operation".
+- Finally, we print the result.
 
 ---
 
