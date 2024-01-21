@@ -7,7 +7,7 @@ This module is all about understanding the grammar, vocabulary, and sentence str
 
 ### Topics Covered:
 
-1. **Syntax and Structure**
+1. **[Syntax and Structure](https://github.com/PeteComSci/intro_comprog/tree/ed2accd0d11731f5e71b83b3c8b477d844a6cfb6/basics/syntax_structure)**
    - Learn the rules that define the structure of a program.
    - Understand how proper syntax is crucial for the program to be correctly understood and executed by the computer.
 
