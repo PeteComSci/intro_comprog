@@ -14,16 +14,16 @@ The journey through programming fundamentals doesn't follow a one-size-fits-all 
 - Introduction to Algorithms
 - Basics of a Programming Environment (IDE)
 
-### Basics of a Programming Language (e.g., Python, JavaScript)
-- Syntax and Structure
-- Variables and Data Types
-- Basic Operators
-- Input and Output Operations
+### [Basics of a Programming Language](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics)
+- [Syntax and Structure](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/syntax_structure)
+- [Variables and Data Types](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/variables_data_types)
+- [Basic Operators](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/operators)
+- [Input and Output Operations](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/input_output)
 
-### Control Structures
-- Conditional Statements (if, else, switch)
-- Loops (for, while, do-while)
-- Break and Continue Statements
+### [Control Structures](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures)
+- [Conditional Statements (if, else, switch)](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures/topics/conditional_statements)
+- [Loops (for, while, do-while)](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures/topics/loops)
+- [Break and Continue Statements](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures/topics/break_continue)
 
 ### Data Structures
 - Arrays and Lists
