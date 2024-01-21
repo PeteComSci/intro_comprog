@@ -6,19 +6,19 @@ Data structures are foundational concepts in programming, essential for storing,
 
 ### Topics Covered:
 
-1. **Arrays and Lists**
+1. **[Arrays and Lists](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/arrays_lists)**
    - Understand the concept of sequential storage.
    - Learn how to create, access, and manipulate elements in arrays (fixed-size) and lists (dynamic-size).
 
-2. **Strings and String Operations**
+2. **[Strings and String Operations](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/strings_operations)**
    - Explore how strings are used to store and manipulate textual data.
    - Learn common string operations such as concatenation, slicing, and formatting.
 
-3. **Dictionaries or Maps (Key-Value Pairs)**
+3. **[Dictionaries or Maps (Key-Value Pairs)](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/dictionaries_maps)**
    - Understand how dictionaries/maps store data as key-value pairs.
    - Learn how to add, retrieve, and remove items, and explore use-cases for when dictionaries/maps are the optimal choice.
 
-4. **Sets and Tuples**
+4. **[Sets and Tuples](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/sets_tuples)**
    - Get to know sets as collections of unique elements.
    - Understand tuples as immutable sequences, and learn when and why to use them in your programs.
 
