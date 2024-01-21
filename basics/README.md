@@ -11,11 +11,11 @@ This module is all about understanding the grammar, vocabulary, and sentence str
    - Learn the rules that define the structure of a program.
    - Understand how proper syntax is crucial for the program to be correctly understood and executed by the computer.
 
-2. **Variables and Data Types**
+2. **[Variables and Data Types](https://github.com/PeteComSci/intro_comprog/tree/b0cb16c7bcb2ccc71e518b59027f8abb473f933c/basics/variables_data_types)**
    - Explore how data is stored and manipulated in programming.
    - Understand different data types and how to use variables to represent data in your code.
 
-3. **Basic Operators**
+3. **[Basic Operators](https://github.com/PeteComSci/intro_comprog/tree/b0cb16c7bcb2ccc71e518b59027f8abb473f933c/basics/operators)**
    - Dive into the operators used for performing arithmetic, comparison, and logical operations.
    - Learn how these operators are used to manipulate data and implement logic in your programs.
 
