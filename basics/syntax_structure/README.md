@@ -6,7 +6,8 @@ Understanding the syntax and structure of a programming language is akin to unde
 
 Understanding syntax in programming is similar to understanding grammar in a spoken language: each has rules that must be followed to convey instructions clearly and correctly.
 
-### Example 1: Syntax in a Natural Language
+<details>
+<summary>Example 1: Syntax in a Natural Language</summary>
 
 **In English:**
 
@@ -15,9 +16,12 @@ Understanding syntax in programming is similar to understanding grammar in a spo
 - **Incorrect Sentence:** "Cat the sat mat on."
   - This sentence doesn't make sense because it violates English syntax rules. The words are jumbled, and the sentence structure is incorrect.
 
-Just like a sentence in English must have proper structure to be understood, a line of code must follow the syntax rules of its programming language.
+</details>
 
-### Example 2: Syntax in Programming (Python)
+Just like a sentence in English must have a proper structure to be understood, a line of code must follow the syntax rules of its programming language.
+
+<details>
+<summary>Example 2: Syntax in Programming (Python)</summary>
 
 **Correct Python Syntax:**
 
@@ -48,10 +52,9 @@ print("Number is greater than 5.")
   - The `print` statement should be indented to indicate it is part of the `if` block.
 
 Even though the instructions (the logic) in the incorrect example are clear to a human, the computer cannot execute them due to the syntax errors. The absence of a colon and improper indentation break the structure, much like a jumbled sentence in English.
+</details>
 
-## Conclusion:
-
-In both natural and programming languages, the syntax and structure are fundamental for clear communication. In programming, a small mistake such as a missing colon, incorrect indentation, or misspelled keyword can lead to errors that prevent the code from running, just as grammatical errors can obscure the meaning of a sentence. Understanding and adhering to the syntax rules is crucial for writing effective and error-free code.
+In both natural and programming languages, syntax and structure are fundamental for clear communication. In programming, a small mistake such as a missing colon, incorrect indentation, or misspelled keyword can lead to errors that prevent the code from running, just as grammatical errors can obscure the meaning of a sentence. Understanding and adhering to the syntax rules is crucial for writing effective and error-free code.
 
 ---
 
