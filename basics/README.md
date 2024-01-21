@@ -19,7 +19,7 @@ This module is all about understanding the grammar, vocabulary, and sentence str
    - Dive into the operators used for performing arithmetic, comparison, and logical operations.
    - Learn how these operators are used to manipulate data and implement logic in your programs.
 
-4. **Input and Output Operations**
+4. **[Input and Output Operations](https://github.com/PeteComSci/intro_comprog/tree/f1292138de12bf25dc5d18adc8e2a33394a671e1/basics/input_output)**
    - Master the ways in which a program interacts with the user and the system.
    - Learn how to accept input from the user, process it, and display output.
 
