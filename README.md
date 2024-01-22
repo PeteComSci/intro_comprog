@@ -50,9 +50,9 @@ The journey through programming fundamentals doesn't follow a one-size-fits-all 
 - Writing Clean and Readable Code
 
 ### [Basic Algorithms](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms)
-- [Sorting Algorithms (e.g., Bubble Sort, Insertion Sort)](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms/sorting_algorithms)
-- Searching Algorithms (e.g., Linear Search, Binary Search)
-- [Basic Recursive Algorithms](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms/recursive_algorithms)
+- [Sorting Algorithms](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms/sorting_algorithms) (e.g., Bubble Sort, Insertion Sort)
+- [Searching Algorithms](https://github.com/PeteComSci/intro_comprog/tree/e882ec4216e6dbc13acdd1c057db512db5065526/topics/algorithms/searching_algorithms) (e.g., Linear Search, Binary Search)
+- [Recursive Algorithms](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms/recursive_algorithms)
 
 ### Introduction to Web Development (Optional)
 - HTML Basics
