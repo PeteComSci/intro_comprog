@@ -66,17 +66,18 @@ Pseudocode is a high-level description of an algorithm or program that uses the 
 // Pseudocode to calculate the area of a circle
 
 // Define a constant for PI
-Set PI to 3.14159
+set PI to 3.14159
 
 // Prompt the user for the radius
-Output "Enter the radius of the circle: "
-Input radius
+output "Enter the radius of the circle: "
+input RADIUS
 
-// Calculate the area using the formula: area = PI * radius^2
-area = PI * radius * radius
+// Calculate the area using the formula: AREA = PI * RADIUS^2
+AREA = PI * RADIUS * RADIUS
 
 // Display the result
-Output "The area of the circle with radius", radius, "is", area
+output "The area of the circle with radius ", RADIUS, " is ", AREA
+
 ```
 
 In this pseudocode:
