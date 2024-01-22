@@ -1,6 +1,14 @@
+# Factorial Calculation
+
 Factorial Calculation is a straightforward example of recursion, clearly showing how a problem can be broken down into smaller instances of itself.
 
-### Factorial Calculation
+For example:
+
+5! = 5 x 4 x 3 x 2 x 1 = 120
+
+---
+## Pseudocode
+
 ```plaintext
 function factorial(n)
     // Base case: if n is 0 or 1
