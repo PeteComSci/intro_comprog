@@ -14,22 +14,22 @@ The journey through programming fundamentals doesn't follow a one-size-fits-all 
 - Introduction to Algorithms
 - Basics of a Programming Environment (IDE)
 
-### Basics of a Programming Language (e.g., Python, JavaScript)
-- Syntax and Structure
-- Variables and Data Types
-- Basic Operators
-- Input and Output Operations
+### [Basics of a Programming Language](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics)
+- [Syntax and Structure](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/syntax_structure)
+- [Variables and Data Types](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/variables_data_types)
+- [Basic Operators](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/operators)
+- [Input and Output Operations](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/input_output)
 
-### Control Structures
-- Conditional Statements (if, else, switch)
-- Loops (for, while, do-while)
-- Break and Continue Statements
+### [Control Structures](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures)
+- [Conditional Statements (if, else, switch)](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures/topics/conditional_statements)
+- [Loops (for, while, do-while)](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures/topics/loops)
+- [Break and Continue Statements](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures/topics/break_continue)
 
-### Data Structures
-- Arrays and Lists
-- Strings and String Operations
-- Dictionaries or Maps (Key-Value Pairs)
-- Sets and Tuples
+### [Data Structures](https://github.com/PeteComSci/intro_comprog/tree/3ae446ee0d50a3074bd0fb0acc846cdb539a7c4a/topics/data_structures)
+- [Arrays and Lists](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/arrays_lists)
+- [Strings and String Operations](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/strings_operations)
+- [Dictionaries or Maps (Key-Value Pairs)](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/dictionaries_maps)
+- [Sets and Tuples](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/sets_tuples)
 
 ### Functions and Modules
 - Defining and Calling Functions
