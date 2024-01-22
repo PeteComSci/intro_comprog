@@ -49,10 +49,10 @@ The journey through programming fundamentals doesn't follow a one-size-fits-all 
 - Debugging Techniques
 - Writing Clean and Readable Code
 
-### Basic Algorithms
-- Sorting Algorithms (e.g., Bubble Sort, Insertion Sort)
+### [Basic Algorithms](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms)
+- [Sorting Algorithms (e.g., Bubble Sort, Insertion Sort)](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms/sorting_algorithms)
 - Searching Algorithms (e.g., Linear Search, Binary Search)
-- Basic Recursive Algorithms
+- [Basic Recursive Algorithms](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms/recursive_algorithms)
 
 ### Introduction to Web Development (Optional)
 - HTML Basics
