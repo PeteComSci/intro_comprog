@@ -64,7 +64,7 @@ Below are the steps for both macOS and Windows:
   - Most macOS versions come with Git installed. You can verify by opening Terminal and typing `git --version`.
   - If not installed, you can install it via [Homebrew](https://brew.sh/) by running `brew install git` in the Terminal.
 
-You can use Command + Space to bring up Spotlight and then enter Terminal and launch it from there.
+You can use `Command + Space` to bring up **Spotlight** and then enter **Terminal** and launch it from there.
 
 - **Windows**: 
   - Download and install Git from [Git for Windows](https://gitforwindows.org/).
