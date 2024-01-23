@@ -120,3 +120,73 @@ In this Python code:
 ---
 
 These examples demonstrate how conditional statements and switch/case structures are used to direct the flow of a program based on different conditions, making your code more dynamic and responsive to user input or other variables.
+
+---
+
+<details>
+
+<summary>Exercise 1: Understanding Basic Conditional Statements</summary>
+
+**Objective**: Familiarize yourself with the basic structure and usage of `if`, `elif`, and `else` statements in Python.
+
+**Instructions**:
+1. Write a Python program that asks the user for an integer.
+2. The program should output "Positive" if the number is greater than zero, "Negative" if the number is less than zero, and "Zero" if the number is exactly zero.
+
+**Expected Output**: The program correctly identifies and outputs whether the input number is positive, negative, or zero.
+
+</details>
+
+---
+
+<details>
+
+<summary>Exercise 2: Enhanced Grading System</summary>
+
+**Objective**: Enhance the grading system example to include more detailed feedback.
+
+**Instructions**:
+1. Modify the grading system code provided earlier.
+2. Add an additional layer of feedback based on the following criteria:
+   - If the grade is 'A' or 'B', output "Excellent! Keep it up."
+   - If the grade is 'C', output "Good, but try to aim higher."
+   - If the grade is 'D', output "You passed, but you should work harder."
+   - If the grade is 'F', output "Unfortunately, you failed. Time to hit the books!"
+
+**Expected Output**: The program outputs the grade along with a corresponding feedback message.
+
+</details>
+
+---
+
+<details>
+
+<summary>Exercise 3: Creating a Simple Calculator</summary>
+
+**Objective**: Strengthen the understanding of dictionary-based conditional execution by creating a simple calculator.
+
+**Instructions**:
+1. Use the simplified mimicking `switch/case` code for a calculator as a base.
+2. Extend the calculator's functionality to include the modulus operation (finding the remainder of a division).
+3. Ensure that if the user tries to divide by zero or uses an invalid operation, the program outputs an appropriate error message.
+
+**Expected Output**: The calculator should correctly perform addition, subtraction, multiplication, division, and modulus operations, or provide an error message for invalid inputs.
+
+</details>
+
+---
+
+<details>
+
+<summary>Exercise 4: Quiz - Conditional Statements</summary>
+
+**Objective**: Test the students' understanding of conditional statements and their syntax.
+
+**Questions**:
+1. What is the purpose of the `elif` statement in Python?
+2. Can an `if` statement exist without an `else` statement?
+3. What will happen if the condition in an `if` statement is false and there are no `elif` or `else` blocks?
+
+</details>
+
+---
