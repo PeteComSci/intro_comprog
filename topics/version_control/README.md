@@ -18,7 +18,7 @@ Git helps manage the evolution of a set of files – often source code for a sof
    - **`git push`**: Discover how to send your committed changes to a remote repository.
    - **`git pull`**: Find out how to fetch and integrate changes from a remote repository into your local branch.
 
-3. **Working with Repositories (local and remote)**
+3. **[Working with Repositories](https://github.com/PeteComSci/intro_comprog/tree/3f8a2cfb94ef4ac2eaaffadfa00f880bf477e766/topics/version_control/topics/github_repositories) (local and remote)**
    - Get to know how to initialize a local repository and connect it to a remote one.
    - Learn how to clone remote repositories, push local changes, and pull updates from others.
 
