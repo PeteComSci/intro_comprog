@@ -31,8 +31,8 @@ The journey through programming fundamentals doesn't follow a one-size-fits-all 
 - [Dictionaries or Maps (Key-Value Pairs)](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/dictionaries_maps)
 - [Sets and Tuples](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/sets_tuples)
 
-### Functions and Modules
-- Defining and Calling Functions
+### [Functions and Modules](https://github.com/PeteComSci/intro_comprog/tree/e0991fd68c8f617b8836b3c4e994f4a524d95728/topics/functions_modules)
+- [Defining and Calling Functions](https://github.com/PeteComSci/intro_comprog/tree/32adab2f3ac37cf7f8675bcf059d4ddafb452fe9/topics/functions_modules)
 - Parameters and Return Values
 - Scope and Lifetime of Variables
 - Modular Programming and Libraries
