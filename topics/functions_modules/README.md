@@ -6,7 +6,7 @@ Functions and modules are foundational concepts in programming, enabling you to 
 
 ### Topics Covered:
 
-1. **Defining and Calling Functions**
+1. **[Defining and Calling Functions](https://github.com/PeteComSci/intro_comprog/tree/32adab2f3ac37cf7f8675bcf059d4ddafb452fe9/topics/functions_modules)**
    - Learn how to define functions to encapsulate reusable pieces of code.
    - Understand how to call functions to execute the code within them, promoting code reuse and organization.
 
