@@ -62,7 +62,7 @@ The journey through programming fundamentals doesn't follow a one-size-fits-all 
 ### [Version Control Systems](https://github.com/PeteComSci/intro_comprog/tree/b42fe737e71fa2d89e7d010d4b29eeec8526f422/topics/version_control)
 - [Introduction to Git](https://github.com/PeteComSci/intro_comprog/tree/5fe8124166b4ea99411c765dd5d9c414d59efde7/topics/version_control/topics/git)
 - Basic Commands (add, commit, push, pull)
-- Working with Repositories (local and remote)
+- [Working with Repositories](https://github.com/PeteComSci/intro_comprog/tree/3f8a2cfb94ef4ac2eaaffadfa00f880bf477e766/topics/version_control/topics/github_repositories) (local and remote)
 
 ### Projects and Practical Applications
 - Individual and Group Projects
