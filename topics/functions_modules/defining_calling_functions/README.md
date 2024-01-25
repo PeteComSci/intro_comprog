@@ -11,26 +11,31 @@ Imagine you're writing a program to calculate the average grade for students in 
 #### Pseudocode Example: Defining and Calling a Function
 
 ```plaintext
+
 // Define a function to calculate the average grade
-Function calculateAverage(grades)
-    Set total to 0
+function CALCULATEAVERAGE(GRADES)
+    // Initialize total to 0
+    set TOTAL to 0
     
     // Add up all the grades
-    For each grade in grades Do
-        Set total to total + grade
-    End For
+    for each GRADE in GRADES do
+        set TOTAL to TOTAL + GRADE
+    end for
     
     // Calculate the average
-    Set average to total / length of grades
+    set AVERAGE to TOTAL / length of GRADES
     
-    Return average
-End Function
+    // Return the result
+    return AVERAGE
+end function
 
 // Main program
-Set grades to [85, 92, 78, 90, 89]
-Set averageGrade to calculateAverage(grades)
+set GRADES to [85, 92, 78, 90, 89]
+set AVERAGEGRADE to CALCULATEAVERAGE(GRADES)
 
-Output "The average grade is: ", averageGrade
+// Output the result
+output "The average grade is: ", AVERAGEGRADE
+
 ```
 
 **In this pseudocode:**
