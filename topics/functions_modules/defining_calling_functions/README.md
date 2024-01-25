@@ -63,10 +63,6 @@ print(f"The average grade is: {average_grade}")
 
 ---
 
-Certainly! Let's create a student-facing, detailed, real-life example to illustrate the concept of defining and calling functions. We'll use the context of organizing a school event, which is a scenario many students can relate to.
-
----
-
 <details>
 
 <summary>Real-Life Example: Organizing a School Event</summary>
