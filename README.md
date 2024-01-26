@@ -16,7 +16,7 @@ The journey through programming fundamentals doesn't follow a one-size-fits-all 
 
 ### [Basics of a Programming Language](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics)
 - [Syntax and Structure](https://github.com/PeteComSci/intro_comprog/tree/f5f82a6a1fe29efe869f8b7034724683046e896d/topics/basics/topics/syntax_structure)
-- [Variables and Data Types](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/variables_data_types)
+- [Variables and Data Types](https://github.com/PeteComSci/intro_comprog/tree/e5d8315805f65d2158f7d617bf3103837d6f3409/topics/basics/topics/variables_data_types)
 - [Basic Operators](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/operators)
 - [Input and Output Operations](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/input_output)
 
