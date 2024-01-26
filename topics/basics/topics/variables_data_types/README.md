@@ -12,8 +12,8 @@ In programming, variables are used to store data that can be used and manipulate
 
 #### Common Data Types
 
-1. **Integers (`int`):** Represent whole numbers, positive or negative, without decimals. Useful for counting or indexing.
-2. **Floating-Point Numbers (`float`):** Represent real numbers and can contain fractional parts.
+1. **[Integers (`int`)](https://github.com/PeteComSci/intro_comprog/blob/main/topics/basics/topics/numbers/README.md#operations-with-integers):** Represent whole numbers, positive or negative, without decimals. Useful for counting or indexing.
+2. **[Floating-Point Numbers (`float`)](https://github.com/PeteComSci/intro_comprog/blob/main/topics/basics/topics/numbers/README.md#floats-and-precision):** Represent real numbers and can contain fractional parts.
 3. **Strings (`str`):** Represent sequences of characters, used for text.
 4. **Booleans (`bool`):** Represent truth values, either `True` or `False`.
 5. **Lists/Arrays:** Represent ordered collections of items, which can be of any data type.
