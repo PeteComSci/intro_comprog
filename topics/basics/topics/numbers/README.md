@@ -17,7 +17,7 @@ Python mainly deals with two types of numbers:
 
 ---
 
-### Operations with Numbers
+### Operations with Integers
 
 You can add (`+`), subtract (`-`), multiply (`*`), and divide (`/`) numbers in Python.
 
