@@ -86,6 +86,11 @@ PI = 3.14
 
 ---
 
+> [!NOTE]
+> You can find some [Python and Pseudocode examples here](https://github.com/PeteComSci/intro_comprog/tree/32db13ce371c9142742b3011f8106a5484ebee9c/topics/basics/topics/numbers/examples/python).
+
+---
+
 # Questions and Exercises
 
 ## Multiple Choice Questions
