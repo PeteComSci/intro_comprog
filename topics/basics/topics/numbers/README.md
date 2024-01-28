@@ -103,11 +103,14 @@ PI = 3.14
    - d) `0.5`
 
 3. Match the concept on the left with its correct description on the right.
-
-1. Integer | a) A type of number with decimal points
-2. Float   | b) A type of number without decimal points
-3. `**`    | c) Used for exponentiation in Python
-4. `//`    | d) Performs floor division
+   - Integer
+   - Float
+   - `**`
+   - `//`
+   - a) A type of number with decimal points
+   - b) A type of number without decimal points
+   - c) Used for exponentiation in Python
+   - d) Performs floor division
 
 ---
 
