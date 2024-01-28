@@ -2,7 +2,7 @@
 
 ### Objectives ###
 
-- To introduce the concept of dynamic input and error handling (division by zero)
+- To introduce the concept of dynamic input
 - To reinforce basic arithmetic operations in programming
 - To be able to apply arithmetic operators to solve real-world problems
 - To introduce the concept of exponentiation in programming
