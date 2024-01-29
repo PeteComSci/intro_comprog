@@ -14,25 +14,25 @@ The journey through programming fundamentals doesn't follow a one-size-fits-all 
 - Introduction to Algorithms
 - Basics of a Programming Environment (IDE)
 
-### [Basics of a Programming Language](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics)
-- [Syntax and Structure](https://github.com/PeteComSci/intro_comprog/tree/f5f82a6a1fe29efe869f8b7034724683046e896d/topics/basics/topics/syntax_structure)
-- [Variables and Data Types](https://github.com/PeteComSci/intro_comprog/tree/e5d8315805f65d2158f7d617bf3103837d6f3409/topics/basics/topics/variables_data_types)
-- [Basic Operators](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/operators)
-- [Input and Output Operations](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/basics/topics/input_output)
+### [Basics of a Programming Language](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics)
+- [Syntax and Structure](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/syntax_structure)
+- [Variables and Data Types](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/variables_data_types)
+- [Basic Operators](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/operators)
+- [Input and Output Operations](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/input_output)
 
-### [Control Structures](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures)
-- [Conditional Statements (if, else, switch)](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures/topics/conditional_statements)
-- [Loops (for, while, do-while)](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures/topics/loops)
-- [Break and Continue Statements](https://github.com/PeteComSci/intro_comprog/tree/c376eb39de1753d7efa99ac436cf15eaf9496aa4/topics/control_structures/topics/break_continue)
+### [Control Structures](https://github.com/PeteComSci/intro_comprog/tree/main/topics/control_structures)
+- [Conditional Statements (if, else, switch)](https://github.com/PeteComSci/intro_comprog/tree/main/topics/control_structures/topics/conditional_statements)
+- [Loops (for, while, do-while)](https://github.com/PeteComSci/intro_comprog/tree/main/topics/control_structures/topics/loops)
+- [Break and Continue Statements](https://github.com/PeteComSci/intro_comprog/tree/main/topics/control_structures/topics/break_continue)
 
-### [Data Structures](https://github.com/PeteComSci/intro_comprog/tree/3ae446ee0d50a3074bd0fb0acc846cdb539a7c4a/topics/data_structures)
-- [Arrays and Lists](https://github.com/PeteComSci/intro_comprog/tree/f64865f76fd2a32cc7445b573f0895fc7205a22d/topics/data_structures/topics/arrays_lists)
-- [Strings and String Operations](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/strings_operations)
-- [Dictionaries or Maps (Key-Value Pairs)](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/dictionaries_maps)
-- [Sets and Tuples](https://github.com/PeteComSci/intro_comprog/tree/5c2bdcc19761d12c7b95862fad852af0cf07b99a/topics/data_structures/topics/sets_tuples)
+### [Data Structures](https://github.com/PeteComSci/intro_comprog/tree/main/topics/data_structures)
+- [Arrays and Lists](https://github.com/PeteComSci/intro_comprog/tree/main/topics/data_structures/topics/arrays_lists)
+- [Strings and String Operations](https://github.com/PeteComSci/intro_comprog/tree/main/topics/data_structures/topics/strings_operations)
+- [Dictionaries or Maps (Key-Value Pairs)](https://github.com/PeteComSci/intro_comprog/tree/main/topics/data_structures/topics/dictionaries_maps)
+- [Sets and Tuples](https://github.com/PeteComSci/intro_comprog/tree/main/topics/data_structures/topics/sets_tuples)
 
-### [Functions and Modules](https://github.com/PeteComSci/intro_comprog/tree/e0991fd68c8f617b8836b3c4e994f4a524d95728/topics/functions_modules)
-- [Defining and Calling Functions](https://github.com/PeteComSci/intro_comprog/tree/32adab2f3ac37cf7f8675bcf059d4ddafb452fe9/topics/functions_modules)
+### [Functions and Modules](https://github.com/PeteComSci/intro_comprog/tree/main/topics/functions_modules)
+- [Defining and Calling Functions](https://github.com/PeteComSci/intro_comprog/tree/main/topics/functions_modules)
 - Parameters and Return Values
 - Scope and Lifetime of Variables
 - Modular Programming and Libraries
@@ -49,20 +49,20 @@ The journey through programming fundamentals doesn't follow a one-size-fits-all 
 - Debugging Techniques
 - Writing Clean and Readable Code
 
-### [Basic Algorithms](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms)
-- [Sorting Algorithms](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms/sorting_algorithms) (e.g., Bubble Sort, Insertion Sort)
-- [Searching Algorithms](https://github.com/PeteComSci/intro_comprog/tree/e882ec4216e6dbc13acdd1c057db512db5065526/topics/algorithms/searching_algorithms) (e.g., Linear Search, Binary Search)
-- [Recursive Algorithms](https://github.com/PeteComSci/intro_comprog/tree/d466cad9bd7ca6975bb99b7e0af34d715c10fee2/topics/algorithms/recursive_algorithms)
+### [Basic Algorithms](https://github.com/PeteComSci/intro_comprog/tree/main/topics/algorithms)
+- [Sorting Algorithms](https://github.com/PeteComSci/intro_comprog/tree/main/topics/algorithms/sorting_algorithms) (e.g., Bubble Sort, Insertion Sort)
+- [Searching Algorithms](https://github.com/PeteComSci/intro_comprog/tree/main/topics/algorithms/searching_algorithms) (e.g., Linear Search, Binary Search)
+- [Recursive Algorithms](https://github.com/PeteComSci/intro_comprog/tree/main/topics/algorithms/recursive_algorithms)
 
 ### Introduction to Web Development (Optional)
 - HTML Basics
 - CSS for Styling
 - Introduction to JavaScript for Interactivity
 
-### [Version Control Systems](https://github.com/PeteComSci/intro_comprog/tree/b42fe737e71fa2d89e7d010d4b29eeec8526f422/topics/version_control)
-- [Introduction to Git](https://github.com/PeteComSci/intro_comprog/tree/5fe8124166b4ea99411c765dd5d9c414d59efde7/topics/version_control/topics/git)
+### [Version Control Systems](https://github.com/PeteComSci/intro_comprog/tree/main/topics/version_control)
+- [Introduction to Git](https://github.com/PeteComSci/intro_comprog/tree/main/topics/version_control/topics/git)
 - Basic Commands (add, commit, push, pull)
-- [Working with Repositories](https://github.com/PeteComSci/intro_comprog/tree/3f8a2cfb94ef4ac2eaaffadfa00f880bf477e766/topics/version_control/topics/github_repositories) (local and remote)
+- [Working with Repositories](https://github.com/PeteComSci/intro_comprog/tree/main/topics/version_control/topics/github_repositories) (local and remote)
 
 ### Projects and Practical Applications
 - Individual and Group Projects
