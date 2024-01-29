@@ -7,19 +7,19 @@ This module is all about understanding the grammar, vocabulary, and sentence str
 
 ### Topics Covered:
 
-1. **[Syntax and Structure](https://github.com/PeteComSci/intro_comprog/tree/main/basics/syntax_structure)**
+1. **[Syntax and Structure](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/syntax_structure)**
    - Learn the rules that define the structure of a program.
    - Understand how proper syntax is crucial for the program to be correctly understood and executed by the computer.
 
-2. **[Variables and Data Types](https://github.com/PeteComSci/intro_comprog/tree/main/basics/variables_data_types)**
+2. **[Variables and Data Types](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/variables_data_types)**
    - Explore how data is stored and manipulated in programming.
    - Understand different data types and how to use variables to represent data in your code.
 
-3. **[Basic Operators](https://github.com/PeteComSci/intro_comprog/tree/main/basics/operators)**
+3. **[Basic Operators](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/operators)**
    - Dive into the operators used for performing arithmetic, comparison, and logical operations.
    - Learn how these operators are used to manipulate data and implement logic in your programs.
 
-4. **[Input and Output Operations](https://github.com/PeteComSci/intro_comprog/tree/main/basics/input_output)**
+4. **[Input and Output Operations](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/input_output)**
    - Master the ways in which a program interacts with the user and the system.
    - Learn how to accept input from the user, process it, and display output.
 
