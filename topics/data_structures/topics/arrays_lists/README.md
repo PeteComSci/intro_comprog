@@ -1,12 +1,15 @@
-## Arrays and Lists
+# Arrays and Lists
 
-Arrays and lists are fundamental data structures in programming, used for storing sequences of elements. Arrays typically have a fixed size, while lists are more dynamic. Let's explore these concepts with detailed examples in pseudocode and Python, including inline comments for clarity.
+Arrays and [lists](https://github.com/PeteComSci/intro_comprog/tree/4636ef0377a265e43ed7fee1fce340ef16f89132/topics/basics/topics/lists) are fundamental data structures in programming used for storing sequences of elements. Arrays typically have a fixed size, while lists are more dynamic. Let's explore these concepts with detailed examples in pseudocode and Python, including inline comments for clarity.
 
 ---
 
-Arrays and lists provide sequential storage, meaning elements are stored in a specific order and can be accessed by their position (or index) in the sequence.
+Arrays and [lists](https://github.com/PeteComSci/intro_comprog/tree/4636ef0377a265e43ed7fee1fce340ef16f89132/topics/basics/topics/lists) provide sequential storage, meaning elements are stored in a specific order and can be accessed by their position (or index) in the sequence.
 
-#### Pseudocode Example: Arrays and Lists
+> [!IMPORTANT]
+> Python doesn't have a built-in array type as in some other languages, 
+
+### Pseudocode Example
 
 ```plaintext
 // Pseudocode: Working with an array/list of student names
@@ -41,9 +44,9 @@ In this pseudocode:
 
 ---
 
-#### Python Example: Lists
+### Python Example: [Lists](https://github.com/PeteComSci/intro_comprog/tree/4636ef0377a265e43ed7fee1fce340ef16f89132/topics/basics/topics/lists)
 
-Python doesn't have a built-in array type as in some other languages, but lists in Python are dynamic and can be used similarly to both arrays and lists from other languages.
+Lists in Python are dynamic and can be used similarly to both arrays and lists from other languages.
 
 ```python
 # Python: Working with a list of student names
@@ -74,6 +77,11 @@ In this Python code:
 - Elements are accessed and modified using their index (e.g., `student_names[0]`).
 - `.append()` and `.remove()` methods are used to manipulate the list.
 - A `for` loop is used to iterate through the list and print each name.
+
+---
+
+> [!NOTE]
+> For more information, go to the [Lists](https://github.com/PeteComSci/intro_comprog/tree/4636ef0377a265e43ed7fee1fce340ef16f89132/topics/basics/topics/lists) page.
 
 ---
 
