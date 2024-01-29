@@ -12,9 +12,11 @@ favorite_subjects = ['Math', 'Science', 'History', 'Art']
 print(favorite_subjects)
 ```
 
+---
+
 ### Accessing Elements in Your List
 
-Grabbing an item from your list is as easy as picking a book from your shelf. Just remember, we start counting from 0.
+Grabbing an item (element) from your list is as easy as picking a book from your shelf. Just remember, we start counting from 0.
 
 Example:
 ```python
@@ -22,6 +24,8 @@ print(favorite_subjects[0]) # Outputs 'Math'
 message = f"My favorite subject is {favorite_subjects[2]}."
 print(message) # Outputs 'My favorite subject is History.'
 ```
+
+---
 
 ### Tweaking Your List (Multiple Means of Action & Expression)
 
@@ -37,6 +41,8 @@ favorite_subjects[3] = 'Physical Education'
 print(favorite_subjects)
 ```
 
+---
+
 #### Expanding Your List
 
 Discover a new hobby? Add it to your list using `append()` or `insert()`.
@@ -47,6 +53,8 @@ favorite_subjects.append('Computer Science')
 favorite_subjects.insert(2, 'English Literature')
 print(favorite_subjects)
 ```
+
+---
 
 #### Streamlining Your List
 
@@ -59,19 +67,28 @@ favorite_subjects.remove('Math') # See ya Math
 print(favorite_subjects)
 ```
 
+---
+
 ## Exercises
 
 Apply your skills in a way that works best for you. Choose an exercise, try it out, and feel free to express your solution in a way that showcases your unique understanding.
 
-### Exercise 1: Dream Devices (Multiple Means of Representation)
+---
 
-Make a list of the tech gadgets you dream about. Write code that expresses why you want each item. 
-For advanced students: feel free to include images, links to articles, or even videos about these gadgets to make your reasoning richer and more diverse.
+### Exercise 1: Dream Devices
 
-### Exercise 2: Top Movies Invite (Multiple Means of Engagement)
+List the tech gadgets you've been eyeing or heard about lately. Write code that prints out why each gadget is on your wish list. Maybe you love the camera on that new phone or the graphics on the latest gaming console.
 
-Hosting a movie marathon? List your top 3 movies and invite friends creatively. Maybe write a fun email, create a digital invitation, or even record a video invite!
+---
 
-### Exercise 3: Global Explorer (Multiple Means of Action & Expression)
+### Exercise 2: Top Movies Invite
 
-Dreaming of traveling? List your top 5 destinations. Then, organize your list in creative ways. Perhaps create a map with pins for each location or a collage of images representing each place.
+Create a list of activities you want to do this weekend. 
+Code a simple program that helps you organize these activities by priority or interest level. Here you can find the [sorting algorithms](https://github.com/PeteComSci/intro_comprog/tree/30f2e5f045dc110e6f597d5e6fbc8d5eac240c95/topics/algorithms/sorting_algorithms).
+
+---
+
+### Exercise 3: Global Explorer
+
+Are you a bookworm? Make a list of books you plan to read. 
+Use an [algorithm](https://github.com/PeteComSci/intro_comprog/tree/30f2e5f045dc110e6f597d5e6fbc8d5eac240c95/topics/algorithms/sorting_algorithms) to sort them alphabetically, by genre, or by the author's last name.
