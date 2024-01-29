@@ -1,10 +1,10 @@
 # Arrays and Lists
 
-Arrays and [lists](https://github.com/PeteComSci/intro_comprog/tree/4636ef0377a265e43ed7fee1fce340ef16f89132/topics/basics/topics/lists) are fundamental data structures in programming used for storing sequences of elements. Arrays typically have a fixed size, while lists are more dynamic. Let's explore these concepts with detailed examples in pseudocode and Python, including inline comments for clarity.
+Arrays and [lists](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/lists) are fundamental data structures in programming used for storing sequences of elements. Arrays typically have a fixed size, while lists are more dynamic. Let's explore these concepts with detailed examples in pseudocode and Python, including inline comments for clarity.
 
 ---
 
-Arrays and [lists](https://github.com/PeteComSci/intro_comprog/tree/4636ef0377a265e43ed7fee1fce340ef16f89132/topics/basics/topics/lists) provide sequential storage, meaning elements are stored in a specific order and can be accessed by their position (or index) in the sequence.
+Arrays and [lists](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/lists) provide sequential storage, meaning elements are stored in a specific order and can be accessed by their position (or index) in the sequence.
 
 > [!IMPORTANT]
 > Python doesn't have a built-in array type as in some other languages, 
@@ -44,7 +44,7 @@ In this pseudocode:
 
 ---
 
-### Python Example: [Lists](https://github.com/PeteComSci/intro_comprog/tree/4636ef0377a265e43ed7fee1fce340ef16f89132/topics/basics/topics/lists)
+### Python Example: [Lists](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/lists)
 
 Lists in Python are dynamic and can be used similarly to both arrays and lists from other languages.
 
@@ -81,7 +81,7 @@ In this Python code:
 ---
 
 > [!NOTE]
-> For more information, go to the [Lists](https://github.com/PeteComSci/intro_comprog/tree/4636ef0377a265e43ed7fee1fce340ef16f89132/topics/basics/topics/lists) page.
+> For more information, go to the [Lists](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/lists) page.
 
 ---
 
