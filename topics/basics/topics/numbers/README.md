@@ -87,7 +87,7 @@ PI = 3.14
 ---
 
 > [!NOTE]
-> You can find some [Python and Pseudocode examples here](https://github.com/PeteComSci/intro_comprog/tree/2b0fd138ac33e4a3f657b36eddc40008c2ad4791/topics/basics/topics/operators/examples/python).
+> You can find some [Python and Pseudocode examples here](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/operators/examples/python).
 
 ---
 
