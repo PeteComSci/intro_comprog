@@ -1,4 +1,4 @@
-## Basic Operators
+# Basic Operators
 
 Basic operators in programming are the symbols that tell the computer to perform specific mathematical, relational, or logical operations. They are fundamental in manipulating data and implementing logic in your code. Let's explore the three main types of operators: arithmetic, comparison, and logical operators.
 
@@ -49,7 +49,7 @@ print("Power:", power)  # Output: 1000
 ---
 
 > [!NOTE]
-> You can find some [Python and Pseudocode examples here](https://github.com/PeteComSci/intro_comprog/tree/2b0fd138ac33e4a3f657b36eddc40008c2ad4791/topics/basics/topics/operators/examples/python).
+> You can find some [Python and Pseudocode examples here](https://github.com/PeteComSci/intro_comprog/tree/main/topics/basics/topics/operators/examples/python).
 
 ---
 
