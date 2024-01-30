@@ -127,7 +127,7 @@ These examples demonstrate how conditional statements and switch/case structures
 
 <summary>Exercise 1: Understanding Basic Conditional Statements</summary>
 
-**Objective**: Familiarize yourself with the basic structure and usage of `if`, `elif`, and `else` statements in Python.
+Familiarize yourself with the basic structure and usage of `if`, `elif`, and `else` statements in Python.
 
 **Instructions**:
 1. Write a Python program that asks the user for an integer.
@@ -143,7 +143,7 @@ These examples demonstrate how conditional statements and switch/case structures
 
 <summary>Exercise 2: Enhanced Grading System</summary>
 
-**Objective**: Enhance the grading system example to include more detailed feedback.
+Enhance the grading system example to include more detailed feedback.
 
 **Instructions**:
 1. Modify the grading system code provided earlier.
@@ -163,7 +163,7 @@ These examples demonstrate how conditional statements and switch/case structures
 
 <summary>Exercise 3: Creating a Simple Calculator</summary>
 
-**Objective**: Strengthen the understanding of dictionary-based conditional execution by creating a simple calculator.
+Strengthen the understanding of dictionary-based conditional execution by creating a simple calculator.
 
 **Instructions**:
 1. Use the simplified mimicking `switch/case` code for a calculator as a base.
