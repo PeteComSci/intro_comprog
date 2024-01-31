@@ -1,6 +1,6 @@
 # test_basic_if_elif_statements.py
 import pytest
-from conditional_statements import check_number
+from basic_if_elif_statements import check_number
 
 def test_positive_number():
     assert check_number(5) == "Positive"
