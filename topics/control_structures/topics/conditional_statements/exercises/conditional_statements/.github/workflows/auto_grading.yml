@@ -1,4 +1,4 @@
-name: Auto-Grading for Basic Conditional Statements
+name: Auto-Grading for Basic IF ELIF ELSE Statements
 
 on: [push, pull_request]
 
@@ -15,5 +15,5 @@ jobs:
       run: pip install pytest
       working-directory: topics/control_structures/topics/conditional_statements/exercises/conditional_statements/
     - name: Run tests with pytest
-      run: pytest test_conditional_statements.py
+      run: pytest test_basic_if_elif_statements.py
       working-directory: topics/control_structures/topics/conditional_statements/exercises/conditional_statements/
