@@ -1,0 +1,19 @@
+name: Auto-Grading for Basic Conditional Statements
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install pytest
+      run: pip install pytest
+      working-directory: topics/control_structures/topics/conditional_statements/exercises/conditional_statements/
+    - name: Run tests with pytest
+      run: pytest test_conditional_statements.py
+      working-directory: topics/control_structures/topics/conditional_statements/exercises/conditional_statements/
