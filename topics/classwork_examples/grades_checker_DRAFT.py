@@ -34,7 +34,7 @@ def menu(grades):
   print("hello, welcome to my program")
   quit = False
   while not quit:
-    user_choice = input("enter 1 to search, \n 2 to check" )
+    user_choice = input("Enter \n1 to search, \n2 to check \n999 to quit : \n" )
     if user_choice == "1":
       search_grade = int(input("enter a grade to search"))
       search(search_grade, grades)
