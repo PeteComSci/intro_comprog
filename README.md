@@ -33,7 +33,7 @@ The journey through programming fundamentals doesn't follow a one-size-fits-all 
 
 ### [Functions and Modules](https://github.com/PeteComSci/intro_comprog/tree/main/topics/functions_modules)
 - [Defining and Calling Functions](https://github.com/PeteComSci/intro_comprog/tree/main/topics/functions_modules)
-- Parameters and Return Values
+- [Parameters and Return Values](https://github.com/PeteComSci/intro_comprog/tree/main/topics/functions_modules/parameters_arguments)
 - Scope and Lifetime of Variables
 - Modular Programming and Libraries
 
