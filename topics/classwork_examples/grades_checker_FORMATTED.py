@@ -24,7 +24,7 @@ This program is intended for educational use, particularly for students learning
 
 """
 
-#Function to check if a given number is even or odd using modulo operation.
+# Function to check if a given number is even or odd using modulo operation.
 # The modulo operator (%) returns the remainder of division. If the remainder is 0 when divided by 2, the number is even; otherwise, it's odd.
 def chkEvOd(num):
     if num % 2 == 0:  # Checks if the number is divisible by 2 with no remainder, indicating it's even.
