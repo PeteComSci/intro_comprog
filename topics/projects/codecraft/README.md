@@ -51,7 +51,7 @@ application.
 - Video needs to demonstrate all the functions and how the program is meeting all the requirements.
 - Include some testing for invalid data inputs and error recovery in the video.
 - You can upload your .py file directly to the assignemnt and skip this: "Commit and push your Python file with a clear file name indicating the project via GitHub Assignment."
-- Upload the video demonstration file to the Google Assignment to submit the assignment.
+- Upload the video demonstration file to the Google Assignment.
 - Self-assess your project using a form provided at the end of the assessment. (link will be available next week)
 - Do peer-assessment for at least 3 other students with meaningful feedback. (2 things that you really link and 1 thing that could be better)
 
