@@ -80,25 +80,31 @@ def menu():
         print("\nOptions: ")
         print("1. Add a new student")
         print("2. Remove a student")
-        print("3. Exit")
+        print("3. Search for a student")
+        print("999. Exit")
         option = input("What would you like to do? ")
 
         if option == '1':
-            add_student()
+            name = input("Enter student's name: ")
+            math_grade = int(input("Enter math grade: "))
+            science_grade = int(input("Enter science grade: "))
+            add_student(name, math_grade, science_grade)
         elif option == '2':
-            remove_student()
+            name = input("Enter the name of the student to remove: ")
+            remove_student(name)
         elif option == '3':
+            name = input("Enter the name of the student to search: ")
+            search_student(name)
+        elif option == '999':
             print("Thank you for using the Student Grades Tracker!")
             break
         else:
             print("Invalid option, please try again.")
 
-
 # Main function to initiate the program
 def main():
-  print(welcome to)
-  menu()
-
+    print("Welcome to the Student Grades Tracker")
+    menu()
 
 # Ensuring the script runs only when it's not being imported
 if __name__ == "__main__":
