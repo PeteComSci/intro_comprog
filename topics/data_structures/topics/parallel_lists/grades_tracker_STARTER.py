@@ -25,6 +25,20 @@ def remove_student():
     pass  # Replace this with your implementation
 
 
+# TODO: Implement a function to search for a student by name and display their grade
+def search_student(student_name):
+    """
+    Searches for a student by name in the students list and prints their grade.
+
+    Parameters:
+    - student_name (str): The name of the student to search for.
+
+    If the student is found, print their name and grade.
+    If the student is not found, print a message indicating they are not on the list.
+    """
+    pass  # Replace this with your implementation
+
+
 # TODO: Implement a function to read students and their grades from a file
 # Hint: Use the format 'name,math_grade,science_grade' for each line in the file
 def read_students(file_path):
