@@ -63,6 +63,15 @@ Imagine you have a row of numbered cards:
 
 To help us better understand bubble sort, we'll do a fun role-play activity. You'll stand in a line, and each of you will be an element in an array. By comparing and "swapping" places with each other, you'll physically act out the bubble sort!
 
+
+## Online Resources
+
+Go to https://www.toptal.com/developers/sorting-algorithms and test run different algorithms and observe the difference.
+
+Sorting Algorithm Animation System (SAAS) features a very clear comparison of [sort algorithms](https://www.mundayweb.com/html/Sorting%20Algorithm%20Animation%20System%20%28SAAS%29.html) using animation. This animation can also be downloaded for offline use at any time.
+
+---
+
 ### Bubble Sort in Python
 Here's a typical implementation of bubble sort in Python:
 
