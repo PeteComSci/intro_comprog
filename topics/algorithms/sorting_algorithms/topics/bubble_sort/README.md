@@ -30,19 +30,37 @@ The bubble sort algorithm repeatedly steps through the list, compares adjacent e
 The pseudocode for the bubble sort algorithm emphasizes its simplicity:
 
 ```plaintext
-procedure bubbleSort( A : list of sortable items )
-    n = length(A)
-    repeat
-        swapped = false
-        for i = 1 to n-1 inclusive do
-            if A[i-1] > A[i] then
-                swap(A[i-1], A[i])
-                swapped = true
-            end if
-        end for
-        n = n - 1
-    until not swapped
-end procedure
+FUNCTION BubbleSort(LIST_TO_SORT)
+    // This function sorts a list in ascending order using the bubble sort algorithm.
+
+    // A flag to check if any swaps have occurred in the current pass.
+    SWAP_HAPPENED = TRUE
+    
+    // Continue looping until a pass occurs where no swaps are made.
+    WHILE SWAP_HAPPENED
+        // Initially assume no swap will occur in this pass.
+        SWAP_HAPPENED = FALSE
+        
+        // Iterate over the list from the first element (0) up to the second-to-last element.
+        // The range is inclusive, hence we use LENGTH(LIST_TO_SORT) - 2.
+        FOR I = 0 TO LENGTH(LIST_TO_SORT) - 2
+            // Compare the current element with the next element.
+            IF LIST_TO_SORT[I] > LIST_TO_SORT[I + 1] THEN
+                // Swap the elements to order them.
+                TEMP = LIST_TO_SORT[I]
+                LIST_TO_SORT[I] = LIST_TO_SORT[I + 1]
+                LIST_TO_SORT[I + 1] = TEMP
+                
+                // Mark that a swap has occurred, so another pass is needed.
+                SWAP_HAPPENED = TRUE
+            ENDIF
+        ENDFOR
+    ENDWHILE
+    
+    // Once no swaps occur in a pass, the list is sorted, and we can return it.
+    RETURN LIST_TO_SORT
+ENDFUNCTION
+
 ```
 
 ## Visualizing Bubble Sort
@@ -76,92 +94,475 @@ Sorting Algorithm Animation System (SAAS) features a very clear comparison of [s
 Here's a typical implementation of bubble sort in Python:
 
 ```python
-def bubble_sort(arr):
-    n = len(arr)
-    for i in range(n):
-        # Flag to check if any swap happens
-        swapped = False
-        # Last i elements are already sorted, so the inner loop can avoid looking at the last i elements
-        for j in range(0, n-i-1):
-            # Compare the adjacent elements
-            if arr[j] > arr[j+1]:
-                # Begin swapping process: Swapping occurs if elements are in the wrong order
-                
-                # Step 1: Store the first element in a temporary variable
-                temp = arr[j]
-                
-                # Step 2: Assign the second element's value to the first element
-                arr[j] = arr[j+1]
-                
-                # Step 3: Assign the temporary variable's value to the second element
-                arr[j+1] = temp
-                
-                # After swapping, mark that a swap has occurred
-                swapped = True
+def bubble_sort(list_to_sort):
+    """
+    Sorts a list in ascending order using the bubble sort algorithm.
+    
+    Arguments:
+    list_to_sort -- the list to be sorted
+    
+    Returns:
+    The sorted list.
+    """
+    
+    # Initialize a flag to track whether a swap has occurred in the current pass.
+    # The algorithm needs to continue as long as at least one swap has been made in a pass,
+    # indicating that the list may still be out of order.
+    swap_happened = True
+    
+    # Continue looping until a pass occurs where no swaps are made,
+    # indicating the list is sorted.
+    while swap_happened:
+        # Assume no swap will occur in this pass. If no swap occurs, the list is sorted,
+        # and the loop will terminate.
+        swap_happened = False
         
-        # If no elements were swapped in the inner loop, the list is already sorted
-        if not swapped:
-            break
+        # Iterate over the list, stopping one element before the last to avoid index out of range errors
+        # when comparing an element to its next neighbor.
+        for i in range(len(list_to_sort) - 1):
+            # If the current element is greater than the next element, a swap is needed.
+            if list_to_sort[i] > list_to_sort[i + 1]:
+                # Swap the elements to order them. This is done by temporary storing
+                # one of the values before overwriting its slot in the list.
+                temp = list_to_sort[i]
+                list_to_sort[i] = list_to_sort[i + 1]
+                list_to_sort[i + 1] = temp
+                
+                # Since a swap occurred, we set the flag to True to indicate another pass is needed.
+                swap_happened = True
+    
+    # Once no swaps occur in a pass, the list is sorted, and we can return it.
+    return list_to_sort
+
+```
+<details>
+
+<summary>Explantations</summary>
+
+Let's break down the provided `bubble_sort` function and align each part of the code with the corresponding steps in the bubble sort algorithm.
+
+### Function Definition
+```python
+def bubble_sort(list_to_sort):
+```
+This line defines a function in Python named `bubble_sort`, which takes one argument, `list_to_sort`. This is the list of elements that will be sorted in ascending order.
+
+### Docstring
+```python
+"""
+Sorts a list in ascending order using the bubble sort algorithm.
+
+Arguments:
+list_to_sort -- the list to be sorted
+
+Returns:
+The sorted list.
+"""
+```
+Here is a docstring providing documentation on what the function does, the argument it takes, and what it returns.
+
+### Initialization of the Swap Flag
+```python
+swap_happened = True
+```
+We declare a variable `swap_happened` and initialize it to `True`. This flag will be used to determine if a pass through the list resulted in any swaps. If no swaps occur, it means the list is sorted, and the algorithm can stop running.
+
+### While Loop to Repeat Passes
+```python
+while swap_happened:
+```
+This `while` loop will keep running as long as `swap_happened` is `True`. A single pass through the list occurs within this loop, and if the list is already sorted, the flag will not be set to `True` again, which will break the loop and end the function.
+
+### Resetting the Swap Flag
+```python
+swap_happened = False
+```
+Before each pass begins, we reset `swap_happened` to `False`. The assumption is that no swaps will be needed and the list is sorted. If a swap happens, this will be set back to `True`.
+
+### For Loop for Comparing Adjacent Elements
+```python
+for i in range(len(list_to_sort) - 1):
+```
+This `for` loop goes through the list from the start to the second-to-last element. It avoids out-of-range errors that would occur if we tried to compare the last element to a non-existent "next" element.
+
+### Comparison and Potential Swap
+```python
+if list_to_sort[i] > list_to_sort[i + 1]:
+    temp = list_to_sort[i]
+    list_to_sort[i] = list_to_sort[i + 1]
+    list_to_sort[i + 1] = temp
+    swap_happened = True
+```
+Inside the loop, we compare each element `i` with the element directly after it `i + 1`. If element `i` is greater than element `i + 1`, they are out of order, and we must swap them. The swap is done using a temporary variable `temp` to hold the value of `list_to_sort[i]` before we overwrite it. After swapping, we set `swap_happened` to `True`, indicating that a swap has occurred and another pass may be necessary.
+
+### Loop Completion and Returning the Sorted List
+```python
+return list_to_sort
+```
+Once the while loop has completed without any swaps being made in the final pass, `swap_happened` remains `False`, signifying that the list is sorted. The sorted list is then returned.
+
+### Bubble Sort Algorithm Steps and Their Implementation in Code
+Here's how the steps of the bubble sort algorithm correspond to the sections of the code:
+1. Start with the first element in the list (implicit in the for loop).
+2. Compare it to the next element.
+3. If the first is greater than the second, swap them (the `if` statement and the lines that follow).
+4. Move to the next element and repeat the comparison and potential swap until you reach the end of the list (the for loop).
+5. At the end of the list, check if any swaps were made (controlled by the `swap_happened` flag).
+   - If yes, perform another pass (the while loop continues).
+   - If no, the list is sorted, and the algorithm terminates (the while loop ends, and the function returns the sorted list).
+
+</details>
+
+---
+
+### Use of While Loop
+
+1. **Adaptive Looping**: The `while` loop is used because the number of iterations needed to sort the list is not known in advance and depends on the data's initial order. A `for` loop is generally used when the number of iterations is known before entering the loop. In contrast, a `while` loop is ideal for situations where the loop must continue until a certain condition is met, such as no more swaps being necessary, indicating that the list is sorted.
+
+2. **Flexibility**: The `while` loop provides flexibility to stop the iterations based on the sorting progress (i.e., if the list becomes sorted before going through all the potential passes). This is dynamically determined during runtime by whether any swaps were made during a pass through the list.
+
+### Use of a Flag (`swap`) vs. Break
+
+1. **Clarity and Intent**: Using a boolean flag (`swap`) to control the loop's execution clearly communicates the algorithm's intention—to continue sorting until no swaps are necessary. This approach enhances readability and understanding, making it clear that the sorting process is conditionally continuous rather than finite.
+
+2. **Control Flow**: The flag provides a straightforward mechanism to manage the loop's execution based on the actual sorting process's state. If at least one swap is made during a pass, the algorithm needs another pass to ensure the list is sorted. The absence of swaps indicates the completion of sorting, allowing the loop to terminate naturally. This method avoids abrupt interruptions in the loop's flow, which could happen with a `break` statement, offering a more structured control flow that aligns with the algorithm's logic.
+
+3. **Extensibility and Debugging**: Using a flag can also simplify debugging and extending the algorithm. For example, if additional actions or checks needed to be performed before exiting the loop (such as logging, or implementing some optimization), having a flag makes it easier to insert these actions before the loop naturally terminates, rather than immediately exiting the loop with a `break` statement.
+
+In essence, the use of a `while` loop and a boolean flag in the bubble sort algorithm enhances its adaptability, readability, and control flow management. It aligns the implementation closely with the algorithm's logical requirements, providing a clear and efficient approach to achieving a sorted list.
+
+---
+
+### Examples
+
+### Bubble Sort by String Length
+This version will sort strings by their length. You need to replace the comparison condition to compare the lengths of the strings (`len(string)`) instead of the string values themselves.
+
+```python
+def bubble_sort_by_length(list_to_sort):
+    swap_happened = True
+    while swap_happened:
+        swap_happened = False
+        for i in range(len(list_to_sort) - 1):
+            if len(list_to_sort[i]) > len(list_to_sort[i + 1]):
+                temp = list_to_sort[i]
+                list_to_sort[i] = list_to_sort[i + 1]
+                list_to_sort[i + 1] = temp
+                swap_happened = True
+    return list_to_sort
 ```
 
-### Breakdown
+### Bubble Sort Alphabetically
+This version will sort strings alphabetically. In Python, strings are compared based on lexicographical order by default, so you can use the greater-than operator to compare strings alphabetically.
 
-1. **Initialize the Sorting Process:**
-   - The function begins by determining the length of the array `n = len(arr)`, which it uses to control the outer loop.
+<details>
 
-2. **Outer Loop - Passes Over the List:**
-   - The outer loop `for i in range(n):` signifies each pass over the entire list. With each pass, the algorithm attempts to "bubble" the largest unsorted element to its correct position at the end of the list.
+<summary>Detailed Explanations</summary>
 
-3. **Swapped Flag:**
-   - Before entering the inner loop, a `swapped` flag is set to `False`. This flag is used to detect if any swaps have been made during the current pass. If no swaps occur, the algorithm concludes that the list is sorted and terminates early, enhancing efficiency.
+In Python, strings are sequences of characters, and when you compare two strings, the comparison is performed lexicographically. This is somewhat similar to how words are arranged in a dictionary, which is why it's often referred to as "dictionary order" or "alphabetical order."
 
-4. **Inner Loop - Element Comparison and Swapping:**
-   - The inner loop `for j in range(0, n-i-1):` iterates over the list, stopping before the already sorted elements. With each iteration, it compares adjacent elements (`arr[j]` and `arr[j+1]`).
+Here's what happens during lexicographical comparison:
 
-5. **Detailed Swapping Process:**
-   - If the current element (`arr[j]`) is greater than the next element (`arr[j+1]`), the algorithm proceeds to swap them. This process involves three steps:
-     1. **Store the first element in a temporary variable:** `temp = arr[j]`.
-     2. **Assign the second element's value to the first element:** `arr[j] = arr[j+1]`.
-     3. **Assign the temporary variable's value to the second element:** `arr[j+1] = temp`.
-   - This explicit detailing of the swap operation is crucial for understanding how values are exchanged in sorting algorithms.
+1. The comparison starts with the first character of each string.
+2. If the characters are different, their Unicode values (essentially their numeric representations) are compared. The string with the lower Unicode value is considered "less" than the other string.
+3. If the first characters are the same, the comparison moves on to the next character, and so on.
+4. This process continues until a difference is found or until the end of one of the strings is reached.
+5. If one string is a prefix of another (like "apple" and "app"), the shorter string is considered "less" than the longer one.
 
-6. **Checking for Early Termination:**
-   - After completing a pass over the list, the algorithm checks the `swapped` flag. If no swaps were made (`if not swapped:`), it concludes that the list is sorted and exits the loop early. This optimization significantly reduces the sorting time for nearly sorted or already sorted lists.
+Here's a practical example:
 
+```python
+string1 = "apple"
+string2 = "banana"
+
+# The first characters are 'a' and 'b', so their Unicode values are compared.
+# Since 'a' < 'b', "apple" is considered less than "banana".
+result = string1 < string2  # This will be True
+```
+
+In the case where strings have mixed case (upper and lower case), Python compares them using the Unicode values, where all upper case letters have lower values than lower case letters:
+
+```python
+string1 = "Apple"
+string2 = "apple"
+
+# The first characters are 'A' (Unicode 65) and 'a' (Unicode 97).
+# Since the Unicode value of 'A' is less than that of 'a', "Apple" is considered less than "apple".
+result = string1 < string2  # This will be True
+```
+
+If you want to compare strings alphabetically without considering the case (i.e., treat "Apple" and "apple" as equal), you should convert both strings to either lower case or upper case before comparison:
+
+```python
+string1 = "Apple".lower()
+string2 = "apple".lower()
+
+# After converting both strings to lower case, they are considered equal.
+result = string1 == string2  # This will be True
+```
+
+Using these principles, you can use relational operators like `<` (less than), `>` (greater than), `==` (equal to), etc., to compare strings in Python based on their lexicographical order.
+
+</details>
+
+```python
+def bubble_sort_alphabetically(list_to_sort):
+    swap_happened = True
+    while swap_happened:
+        swap_happened = False
+        for i in range(len(list_to_sort) - 1):
+            if list_to_sort[i].lower() > list_to_sort[i + 1].lower():
+                temp = list_to_sort[i]
+                list_to_sort[i] = list_to_sort[i + 1]
+                list_to_sort[i + 1] = temp
+                swap_happened = True
+    return list_to_sort
+```
+
+Note that for alphabetical sorting, we use the `.lower()` method to ensure the comparison is case-insensitive, as Python string comparison is case-sensitive by default, and uppercase letters are considered less than lowercase letters.
+
+### Comprehensive Example
+Now let's combine both sorting by length and then alphabetically within the same bubble sort function:
+
+```python
+def bubble_sort_strings(list_to_sort):
+    swap_happened = True
+    while swap_happened:
+        swap_happened = False
+        for i in range(len(list_to_sort) - 1):
+            # Sort primarily by length
+            if len(list_to_sort[i]) > len(list_to_sort[i + 1]):
+                list_to_sort[i], list_to_sort[i + 1] = list_to_sort[i + 1], list_to_sort[i]
+                swap_happened = True
+            # If lengths are equal, sort alphabetically
+            elif len(list_to_sort[i]) == len(list_to_sort[i + 1]) and list_to_sort[i].lower() > list_to_sort[i + 1].lower():
+                list_to_sort[i], list_to_sort[i + 1] = list_to_sort[i + 1], list_to_sort[i]
+                swap_happened = True
+    return list_to_sort
+```
 
 ---
 
-## Integrating Bubble Sort Into a Program
+<details>
 
-Finally, you'll get to integrate the bubble sort function into a real program, enhancing its functionality by sorting data such as a list of names or scores.
+<summary>Examples - Sorting Strings</summary>
 
-## Ready, Set, Sort!
+### Example 1: Case Insensitive Alphabetical Sorting of Names
 
-By the end of this lesson, you'll have a solid understanding of bubble sort and its implementation in Python. Remember, questions are encouraged, and there's no such thing as a silly question. Let's embark on this algorithmic adventure together!
+Suppose you have a list of names and you want to sort them alphabetically without considering the case sensitivity:
+
+```python
+names = ["Alice", "bob", "alex", "Bob", "Clara", "claire"]
+
+def bubble_sort_case_insensitive(list_to_sort):
+    swap_happened = True
+    while swap_happened:
+        swap_happened = False
+        for i in range(len(list_to_sort) - 1):
+            if list_to_sort[i].lower() > list_to_sort[i + 1].lower():
+                list_to_sort[i], list_to_sort[i + 1] = list_to_sort[i + 1], list_to_sort[i]
+                swap_happened = True
+    return list_to_sort
+
+sorted_names = bubble_sort_case_insensitive(names)
+```
+
+After sorting, `sorted_names` will be:
+
+```
+["alex", "Alice", "bob", "Bob", "Clara", "claire"]
+```
+
+Notice how names that start with the same letter are sorted regardless of their case, e.g., "Alice" and "alex".
+
+### Example 2: Sorting Strings by Last Character
+
+Let's sort strings by their last character. If the last characters are the same, we'll sort them by the first character:
+
+```python
+words = ["banana", "apple", "cherry", "date", "grape", "fig"]
+
+def bubble_sort_by_last_char(list_to_sort):
+    swap_happened = True
+    while swap_happened:
+        swap_happened = False
+        for i in range(len(list_to_sort) - 1):
+            last_char1 = list_to_sort[i][-1]
+            last_char2 = list_to_sort[i + 1][-1]
+            if last_char1 > last_char2 or (last_char1 == last_char2 and list_to_sort[i] > list_to_sort[i + 1]):
+                list_to_sort[i], list_to_sort[i + 1] = list_to_sort[i + 1], list_to_sort[i]
+                swap_happened = True
+    return list_to_sort
+
+sorted_words = bubble_sort_by_last_char(words)
+```
+
+After sorting, `sorted_words` will be:
+
+```
+["banana", "apple", "grape", "date", "fig", "cherry"]
+```
+
+In this example, "banana" and "apple" are sorted because "a" (from "banana") comes before "e" (from "apple"), even though "banana" comes after "apple" in standard alphabetical order.
+
+### Example 3: Sorting Strings by Their Reverse
+
+Now imagine you want to sort strings based on their reverse. This could be a fun way to look for potential palindromes or just to sort in a non-standard way:
+
+```python
+phrases = ["step on no pets", "able was I saw elba", "no lemon no melon"]
+
+def bubble_sort_by_reverse(list_to_sort):
+    swap_happened = True
+    while swap_happened:
+        swap_happened = False
+        for i in range(len(list_to_sort) - 1):
+            if list_to_sort[i][::-1] > list_to_sort[i + 1][::-1]:
+                list_to_sort[i], list_to_sort[i + 1] = list_to_sort[i + 1], list_to_sort[i]
+                swap_happened = True
+    return list_to_sort
+
+sorted_phrases = bubble_sort_by_reverse(phrases)
+```
+
+After sorting, `sorted_phrases` will be:
+
+```
+["able was I saw elba", "no lemon no melon", "step on no pets"]
+```
+
+This example shows sorting based on the reversed strings, which places "able was I saw elba" before "no lemon no melon", due to the reverse of "elba" being "able", which comes alphabetically before "nom".
+
+These examples demonstrate how flexible and fun string comparison can be when you incorporate it into sorting algorithms like bubble sort. You can set up various criteria for comparison to achieve different sorting behaviors.
+
+</details>
 
 ---
 
-### Complexity Analysis
+<details>
+
+<summary>Advanced Examples - Sorting Numbers</summary>
+
+### Example 1: Sorting Numbers by Number of Divisors
+
+```python
+def bubble_sort_by_divisors(numbers):
+    n = len(numbers)
+    swap_happened = True
+    while swap_happened:
+        swap_happened = False
+        for i in range(n - 1):
+            count_i = 0
+            count_j = 0
+            # Count divisors for numbers[i]
+            for div_i in range(1, numbers[i] + 1):
+                if numbers[i] % div_i == 0:
+                    count_i += 1
+            # Count divisors for numbers[i + 1]
+            for div_j in range(1, numbers[i + 1] + 1):
+                if numbers[i + 1] % div_j == 0:
+                    count_j += 1
+            if count_i > count_j:
+                temp = numbers[i]
+                numbers[i] = numbers[i + 1]
+                numbers[i + 1] = temp
+                swap_happened = True
+    return numbers
+```
+
+### Example 2: Sorting Numbers by Proximity to a Given Value
+
+```python
+def bubble_sort_by_proximity(numbers, pivot):
+    n = len(numbers)
+    swap_happened = True
+    while swap_happened:
+        swap_happened = False
+        for i in range(n - 1):
+            proximity_i = abs(numbers[i] - pivot)
+            proximity_j = abs(numbers[i + 1] - pivot)
+            if proximity_i > proximity_j:
+                temp = numbers[i]
+                numbers[i] = numbers[i + 1]
+                numbers[i + 1] = temp
+                swap_happened = True
+    return numbers
+```
+
+### Example 3: Sorting Numbers by Sum of Digits
+
+```python
+def bubble_sort_by_digit_sum(numbers):
+    n = len(numbers)
+    swap_happened = True
+    while swap_happened:
+        swap_happened = False
+        for i in range(n - 1):
+            sum_i = 0
+            num_i = numbers[i]
+            sum_j = 0
+            num_j = numbers[i + 1]
+            # Calculate sum of digits for numbers[i]
+            while num_i > 0:
+                sum_i += num_i % 10
+                num_i //= 10
+            # Calculate sum of digits for numbers[i + 1]
+            while num_j > 0:
+                sum_j += num_j % 10
+                num_j //= 10
+            if sum_i > sum_j:
+                temp = numbers[i]
+                numbers[i] = numbers[i + 1]
+                numbers[i + 1] = temp
+                swap_happened = True
+    return numbers
+```
+
+</details>
+
+---
+
+<details>
+
+<summary>Complexity Analysis</summary>
 
 - **Time Complexity:**
   - **Best Case (already sorted list):** O(n). Only one pass through the list is needed.
   - **Average and Worst Case (random list or reverse sorted list):** O(n^2). Each element needs to be compared to every other element.
 - **Space Complexity:** O(1). Bubble sort is an in-place sorting algorithm that requires no additional storage space apart from temporary variables.
 
-### Advantages
+</details>
+
+<details>
+
+<summary>Advantages</summary>
 
 - **Simplicity:** Bubble sort is straightforward to understand and implement.
 - **No Additional Memory Needed:** It sorts the list in place, requiring minimal extra storage.
 - **Adaptive:** It can be optimized to stop early if the list becomes sorted before completing all the passes.
 - **Detection of a Sorted List:** It can detect that the list is already sorted and terminate early.
 
-### Disadvantages
+</details>
+
+<details>
+
+<summary>Disadvantages</summary>
 
 - **Inefficiency:** Bubble sort is less efficient compared to other sorting algorithms like quicksort, mergesort, or heapsort, especially on large lists.
 - **Performance:** Its quadratic time complexity makes it impractical for datasets that are not small or nearly sorted.
 
-### Use Cases
+</details>
+
+<details>
+
+<summary>Use Cases</summary>
 
 Despite its inefficiencies, bubble sort has its place in educational environments for teaching basic algorithm concepts. It's also suitable for small datasets or nearly sorted datasets where its simplicity and the property of being adaptive can be advantageous.
 
-In summary, while bubble sort is not the go-to for performance-critical applications, its simplicity makes it an invaluable tool for introductory computer science education and understanding fundamental sorting principles.
+</details>
+
+---
+
+## Integrating Bubble Sort Into a Program
+
+Finally, you'll get to integrate the bubble sort function into a real program, enhancing its functionality by sorting data such as a list of names or scores.
