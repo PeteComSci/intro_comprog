@@ -6,15 +6,15 @@ Algorithms are step-by-step procedures or formulas for solving problems. In this
 
 ### Topics Covered:
 
-1. **[Sorting Algorithms](https://github.com/PeteComSci/intro_comprog/tree/e882ec4216e6dbc13acdd1c057db512db5065526/topics/algorithms/sorting_algorithms)**
+1. **[Sorting Algorithms](https://github.com/PeteComSci/intro_comprog/tree/main/topics/algorithms/sorting_algorithms)**
    - **Bubble Sort:** Learn this simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
    - **Insertion Sort:** Understand this algorithm that builds the final sorted array one item at a time, placing each element in its proper place.
 
-2. **[Searching Algorithms](https://github.com/PeteComSci/intro_comprog/tree/e882ec4216e6dbc13acdd1c057db512db5065526/topics/algorithms/searching_algorithms)**
+2. **[Searching Algorithms](https://github.com/PeteComSci/intro_comprog/tree/main/topics/algorithms/searching_algorithms)**
    - **Linear Search:** Explore this straightforward approach, where you look for an element by checking each element in the list until the desired element is found or the list ends.
    - **Binary Search:** Dive into this efficient algorithm that repeatedly divides the search interval in half, used especially with sorted arrays.
 
-3. **[Recursive Algorithms](https://github.com/PeteComSci/intro_comprog/tree/e882ec4216e6dbc13acdd1c057db512db5065526/topics/algorithms/recursive_algorithms)**
+3. **[Recursive Algorithms](https://github.com/PeteComSci/intro_comprog/tree/main/topics/algorithms/recursive_algorithms)**
    - Get acquainted with the principle of recursion, where a function calls itself to solve a problem by breaking it down into smaller, more manageable sub-problems.
    - Understand how recursion is used in various algorithms and the importance of base cases to prevent infinite loops.
 
