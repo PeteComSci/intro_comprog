@@ -563,6 +563,268 @@ Despite its inefficiencies, bubble sort has its place in educational environment
 
 ---
 
+### Sort List in Ascending Order (Beginner)
+
+**Objective:**  
+Sort a list of integers in ascending order. Use the bubble sort algorithm to achieve this.
+
+**Instructions:**
+
+1. Compare each pair of adjacent elements in the list.
+2. Swap them if they are in the wrong order (the first is greater than the second).
+3. Continue this process until the entire list is sorted in ascending order.
+
+**Starter Code:**
+
+```python
+def ascending_bubble_sort(numbers):
+    # Implement the bubble sort logic here to sort the list in ascending order
+    
+    return numbers
+
+# Test the function with this list
+test_list = [64, 34, 25, 12, 22, 11, 90]
+sorted_list = ascending_bubble_sort(test_list)
+print(sorted_list)
+```
+
+**Expected Output:**  
+```
+[11, 12, 22, 25, 34, 64, 90]
+```
+
+---
+
+### Sort Negative Numbers (Beginner)
+
+**Objective:**  
+Given a list that includes both positive and negative integers, sort the list so that all negative numbers come before positive numbers. Ignore the order among negative or positive numbers.
+
+**Instructions:**
+
+1. Modify the bubble sort algorithm to prioritize moving negative numbers to the beginning of the list.
+2. You don’t need to sort the negative numbers or the positive numbers among themselves; just separate negatives from positives.
+
+**Starter Code:**
+
+```python
+def sort_negatives(numbers):
+    # Modify the bubble sort logic to move negative numbers to the start of the list
+    
+    return numbers
+
+# Test the function with this list
+test_list = [3, -1, -4, 0, -2, 5, -3]
+sorted_list = sort_negatives(test_list)
+print(sorted_list)
+```
+
+**Expected Output:**  
+The exact order of negative and positive numbers may vary, but all negative numbers should come before any non-negative numbers, for example:
+```
+[-1, -4, -2, -3, 3, 0, 5]
+```
+
+---
+
+### Sort Even Numbers (Beginner)
+
+**Objective:**  
+Sort a list of integers such that all even numbers are at the beginning of the list. The order among even or odd numbers does not matter.
+
+**Instructions:**
+
+1. Apply bubble sort modifications to move all even numbers to the start of the list.
+2. The internal order among even or odd numbers does not need to be sorted.
+
+**Starter Code:**
+
+```python
+def sort_evens_first(numbers):
+    # Adjust the bubble sort to place even numbers at the beginning of the list
+    
+    return numbers
+
+# Test the function with this list
+test_list = [1, 2, 4, 3, 7, 16, 10]
+sorted_list = sort_evens_first(test_list)
+print(sorted_list)
+```
+
+**Expected Output:**  
+The exact order of even and odd numbers may vary, but all even numbers should come before any odd numbers, for example:
+```
+[2, 4, 16, 10, 1, 3, 7]
+```
+
+---
+
+### Exercise 1: Favorite Colors Sorter (Easy)
+
+**Objective:**  
+You and your friends have listed your favorite colors. Sort this list in alphabetical order using bubble sort to easily find who likes what color.
+
+**Instructions:**
+
+1. Given a list of favorite colors, sort them alphabetically.
+2. Use bubble sort algorithm for sorting.
+3. This exercise helps understand how strings can be sorted using their alphabetical order.
+
+**Starter Code:**
+
+```python
+def favorite_colors_sorter(colors):
+    # Implement bubble sort for alphabetical sorting
+    
+    return colors
+
+# List of favorite colors
+favorite_colors = ["blue", "red", "green", "yellow", "purple"]
+print(favorite_colors_sorter(favorite_colors))
+```
+
+### Exercise 2: Class Attendance Sorter (Easy)
+
+**Objective:**  
+Your teacher has a list of students' names and their attendance counts. Sort the students by their attendance counts in ascending order using bubble sort.
+
+**Instructions:**
+
+1. Given parallel lists: one with student names and one with their attendance counts, sort the students based on their attendance counts in ascending order.
+2. Maintain the association between student names and their attendance counts.
+3. This exercise helps understand sorting with parallel lists and the importance of maintaining associations between them.
+
+**Starter Code:**
+
+```python
+def class_attendance_sorter(names, attendance):
+    # Implement bubble sort to sort by attendance, keeping names associated with their respective attendance counts
+    
+    return names, attendance
+
+# Student names and their corresponding attendance counts
+student_names = ["Emma", "John", "Mike", "Lily", "Rose"]
+attendance_counts = [23, 45, 12, 34, 29]
+sorted_names, sorted_attendance = class_attendance_sorter(student_names, attendance_counts)
+print(sorted_names)
+print(sorted_attendance)
+```
+
+### Exercise 3: Group Project Teams (Easy)
+
+**Objective:**  
+For a group project, students were randomly assigned numbers. Sort the students into teams based on these numbers in ascending order using bubble sort.
+
+**Instructions:**
+
+1. Given a list of student names and a parallel list of team numbers, sort the students into their teams by sorting the team numbers in ascending order.
+2. Ensure that student names stay associated with their original team numbers.
+3. This exercise demonstrates the use of parallel lists and sorting to organize group assignments.
+
+**Starter Code:**
+
+```python
+def group_project_teams(names, team_numbers):
+    # Implement bubble sort to sort students into teams by team number
+    
+    return names, team_numbers
+
+# Student names and their assigned team numbers
+student_names = ["Sophia", "Lucas", "Mia", "Jackson", "Ava"]
+team_numbers = [3, 1, 4, 2, 5]
+sorted_names, sorted_teams = group_project_teams(student_names, team_numbers)
+print(sorted_names)
+print(sorted_teams)
+```
+
+#### Exercise 4: Library Book Sorter (Easy)
+
+**Objective:**  
+A small library wants to sort books based on their ID numbers in ascending order to make inventory checks easier.
+
+**Instructions:**
+
+1. Given a list of book titles and a parallel list of book ID numbers, sort the books by their ID numbers in ascending order.
+2. Keep the titles associated with their respective ID numbers.
+3. Use bubble sort for the sorting mechanism.
+
+**Starter Code:**
+
+```python
+def library_book_sorter(titles, ids):
+    # Your bubble sort logic here
+    
+    return titles, ids
+
+# Book titles and their ID numbers
+book_titles = ["The Great Gatsby", "1984", "Moby-Dick", "Hamlet", "War and Peace"]
+book_ids = [3, 2, 5, 1, 4]
+sorted_titles, sorted_ids = library_book_sorter(book_titles, book_ids)
+print("Sorted Titles:", sorted_titles)
+print("Sorted IDs:", sorted_ids)
+```
+
+#### Exercise 5: Sports Team Draft Picks (Easy)
+
+**Objective:**  
+A sports league is conducting a draft where teams pick players in turns. Each team's next pick number is listed, and you need to sort the teams based on their upcoming draft pick number.
+
+**Instructions:**
+
+1. Given a list of team names and a parallel list of their next draft pick numbers, sort the teams by their pick numbers in ascending order.
+2. Maintain the association between team names and their draft pick numbers.
+3. Implement the sorting using bubble sort.
+
+**Starter Code:**
+
+```python
+def sports_team_draft_picks(teams, pick_numbers):
+    # Your bubble sort logic here
+    
+    return teams, pick_numbers
+
+# Team names and their next draft pick numbers
+team_names = ["Lions", "Tigers", "Bears", "Hawks", "Eagles"]
+draft_pick_numbers = [32, 15, 7, 22, 3]
+sorted_teams, sorted_picks = sports_team_draft_picks(team_names, draft_pick_numbers)
+print("Sorted Teams:", sorted_teams)
+print("Sorted Draft Picks:", sorted_picks)
+```
+
+### Exercise 6: Sort Even and Odd Numbers Separately (Medium)
+
+**Objective:**  
+Modify the bubble sort algorithm to sort even numbers in ascending order and odd numbers in descending order within the same list.
+
+**Instructions:**
+
+1. Use a `while` loop to continue sorting until no swaps are needed.
+2. Inside the `while` loop, use a `for` loop to traverse the list.
+3. Determine if two adjacent numbers are both even or both odd.
+4. Swap even numbers if the left is greater than the right for ascending order.
+5. Swap odd numbers if the left is less than the right for descending order.
+6. Ensure even and odd numbers are sorted within their own groups according to the specified order.
+
+**Starter Code:**
+
+```python
+def sort_even_odd_separately(numbers):
+    n = len(numbers)
+    swapped = True
+    while swapped:
+        swapped = False
+        for i in range(n - 1):
+            # Hint: Use conditions to check parity and decide on swapping logic
+            # Your swapping logic here
+    return numbers
+
+# Test the function
+test_list = [5, 8, 6, 3, 4, 2, 1, 7, 9]
+print(sort_even_odd_separately(test_list))
+```
+
+---
+
 ## Integrating Bubble Sort Into a Program
 
 Finally, you'll get to integrate the bubble sort function into a real program, enhancing its functionality by sorting data such as a list of names or scores.
