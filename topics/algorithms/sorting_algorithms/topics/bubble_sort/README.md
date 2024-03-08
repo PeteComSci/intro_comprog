@@ -375,6 +375,8 @@ After sorting, `sorted_names` will be:
 
 Notice how names that start with the same letter are sorted regardless of their case, e.g., "Alice" and "alex".
 
+---
+
 ### Example 2: Sorting Strings by Last Character
 
 Let's sort strings by their last character. If the last characters are the same, we'll sort them by the first character:
@@ -397,6 +399,36 @@ def bubble_sort_by_last_char(list_to_sort):
 sorted_words = bubble_sort_by_last_char(words)
 ```
 
+<details>
+
+<summary>Using `len()` from String stead of `[-1]`</summary>
+
+To simplify the code with a focus on detailed computational steps using built-in functions in Python's String module, we'll employ more descriptive and foundational string handling techniques. Since the goal is to access the last character of strings in a list, we can use a combination of foundational Python string functions such as `len()` and direct indexing to achieve this.
+
+```python
+def get_last_character_explicit(string):
+    """
+    This function returns the last character of a given string in a more explicit manner,
+    utilizing the len() function and direct indexing.
+    """
+    # Calculate the length of the string
+    string_length = len(string)
+    # Access the last character using the length - 1, as indices start at 0
+    last_character = string[string_length - 1]
+    return last_character
+
+# Assuming list_to_sort is a list of strings and i is the current index we are examining
+# Example: list_to_sort = ['apple', 'banana', 'cherry'], i = 0
+
+# Use the function to get the last character of strings at indices i and i + 1 in list_to_sort
+last_char1 = get_last_character_explicit(list_to_sort[i])
+last_char2 = get_last_character_explicit(list_to_sort[i + 1])
+```
+
+This approach uses basic Python functions and operations to achieve the same result as the original code. By employing `len()` to determine the string's length and then subtracting 1 to get the index of the last character, we make the computational steps explicit and clear. This method enhances understanding, especially for beginners, by highlighting how string manipulation and indexing work in Python.
+
+</details>
+
 After sorting, `sorted_words` will be:
 
 ```
@@ -404,6 +436,8 @@ After sorting, `sorted_words` will be:
 ```
 
 In this example, "banana" and "apple" are sorted because "a" (from "banana") comes before "e" (from "apple"), even though "banana" comes after "apple" in standard alphabetical order.
+
+---
 
 ### Example 3: Sorting Strings by Their Reverse
 
@@ -470,6 +504,8 @@ def bubble_sort_by_divisors(numbers):
     return numbers
 ```
 
+---
+
 ### Example 2: Sorting Numbers by Proximity to a Given Value
 
 ```python
@@ -488,6 +524,8 @@ def bubble_sort_by_proximity(numbers, pivot):
                 swap_happened = True
     return numbers
 ```
+
+---
 
 ### Example 3: Sorting Numbers by Sum of Digits
 
