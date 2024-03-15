@@ -220,4 +220,32 @@ Add an item to the end of a list associated with a dictionary key:
 
 </details>
 
-This markdown document serves as a comprehensive guide to using Python dictionaries, demonstrated through engaging examples and practical exercises. It's designed to encourage interactive learning and exploration of Python's powerful capabilities for managing and manipulating data.
+---
+
+## Exercises:
+
+1. **Filter Movies by Timeline Function**
+   - Create a function named `filter_movies_by_timeline` that takes two parameters: `movies_dict` and `timeline`.
+   - In this function, create a new dictionary `filtered_movies` by iterating over `movies_dict` and adding only those movies whose timeline matches the provided `timeline`.
+   - Return `filtered_movies`.
+
+2. **Count Movies by Year Function**
+   - Create a function named `count_movies_by_year` that takes one parameter: `movies_dict`.
+   - In this function, create a new dictionary `year_count`. Iterate over `movies_dict` and for each movie, check its release year. If the year is already a key in `year_count`, increment its value by 1. If not, add it to `year_count` with a value of 1.
+   - Return `year_count`.
+
+3. **Average Movie Releases Per Year Function**
+   - Create a function named `average_movies_per_year` that takes one parameter: `movies_dict`.
+   - In this function, first call the `count_movies_by_year` function to get the `year_count` dictionary. Then calculate the total number of years (which is the number of keys in `year_count`) and the total number of movies (which is the sum of values in `year_count`).
+   - Calculate the average by dividing the total number of movies by the total number of years and return this value.
+
+4. **Find Movies By Partial Name Function**
+   - Create a function named `find_movies_by_partial_name` that takes two parameters: `movies_dict` and `partial_name`.
+   - In this function, create a new dictionary `found_movies` by iterating over `movies_dict` and adding only those movies whose name contains the `partial_name`.
+   - Return `found_movies`.
+
+5. **Add Multiple Movies Function**
+   - Create a function named `add_multiple_movies` that takes two parameters: `movies_dict` and `movies_list`. `movies_list` should be a list of dictionaries, where each dictionary represents a movie and contains the keys "name", "year", and "timeline".
+   - In this function, iterate over `movies_list` and for each movie, call the `add_movie` function to add it to `movies_dict`.
+
+Remember to test your functions after you write them to make sure they work as expected.
