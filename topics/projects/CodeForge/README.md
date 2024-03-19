@@ -102,6 +102,13 @@ Your project will be assessed based on the following criteria:
 - **Good**: Effective use of complex loops and conditional structures, including nested loops and advanced conditionals, for data processing and control flow.
 - **Exceptional**: Sophisticated use of multiple and nested loops and conditional statements, integrating deeply with program logic for efficient data handling and processing.
 
+#### Dictionaries
+- **0%**: No use of dictionaries.
+- **Poor**: Basic use of dictionaries without leveraging their unique features, like only storing and retrieving single values.
+- **Average**: Correct use of dictionaries for storing and retrieving data, demonstrating understanding of key-value pairing.
+- **Good**: Efficient use of dictionaries with operations like adding, updating, and deleting key-value pairs, and iterating over items.
+- **Exceptional**: Advanced use of dictionaries, including nested structures, comprehensions, and methods like `.get()`, `.keys()`, `.values()`, and `.items()`, integrated effectively within the program’s logic.
+
 ---
 
 ### Add Student Function
