@@ -92,6 +92,13 @@ Your project will be assessed based on the following criteria:
 - **Good**: Efficient and meaningful use of lists and parallel lists in conjunction with advanced data structures and algorithms.
 - **Exceptional**: Comprehensive use of lists and parallel lists integrated with other functionalities like searching and sorting, demonstrating advanced understanding and application.
 
+#### Bubble Sort
+  - **0%**: No implementation of sorting algorithms, including Bubble Sort.
+  - **Poor**: Basic or flawed implementation of Bubble Sort, lacking efficiency and possibly containing errors.
+  - **Average**: Correct implementation of Bubble Sort for basic sorting tasks, demonstrating an understanding of the algorithm’s process.
+  - **Good**: Efficient use of Bubble Sort with good understanding and application, showing its effectiveness in sorting tasks with appropriate optimization for performance.
+  - **Exceptional**: Advanced and optimized use of Bubble Sort, seamlessly integrated with other algorithms and data structures, demonstrating a comprehensive understanding of sorting algorithms and their practical application in complex scenarios.
+
 #### Error Handling
 - **0%**: No error handling implemented.
 - **Poor**: Minimal error handling with limited user feedback.
