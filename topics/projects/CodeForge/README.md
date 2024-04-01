@@ -1,6 +1,6 @@
-### CodeForge Project Introduction and Instructions
+### CodeForge: Paired Programming for Real-World Solutions
 
-**Project Title: CodeForge: Paired Programming for Real-World Solutions**
+**Project Introduction and Instructions**
 
 **Introduction:**
 Welcome to CodeForge, a paired programming project where you and your partner will forge solutions to real-world problems through code. This initiative is designed to enhance your computational thinking, coding proficiency, and collaborative skills. You will work together to conceptualize, design, and implement a software solution that has practical applications and addresses genuine needs.
