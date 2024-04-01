@@ -1,28 +1,39 @@
-### CodeForge: Paired Programming for Real-World Solutions
+## CodeForge: Paired Programming for Real-World Solutions
 
-**Project Introduction and Instructions**
-
-**Introduction:**
+### Introduction:
 Welcome to CodeForge, a paired programming project where you and your partner will forge solutions to real-world problems through code. This initiative is designed to enhance your computational thinking, coding proficiency, and collaborative skills. You will work together to conceptualize, design, and implement a software solution that has practical applications and addresses genuine needs.
 
 **Objective:**
 The goal of CodeForge is to collaboratively create a Python application that solves a selected real-life problem. This project will test your ability to integrate various programming constructs, including loops, conditional statements, functions, and data structures like lists, dictionaries, and files, all within a teamwork-driven environment.
 
-**Project Criteria:**
+### Project Criteria:
 Your project will be assessed based on the following criteria:
 
-1. **Random Module Usage** (9%)
-2. **File Input/Output** (14%)
-3. **Searching** (9%)
-4. **Lists and Parallel Lists** (14%)
-5. **Dictionaries** (14%)
-6. **Error Handling** (9%)
-7. **Specific Functions and Naming Conventions** (9%)
-8. **Video, Computational Thinking Skills, and Collaboration/Teamwork** (9%)
-9. **In-line Comments and Computational Thinking** (7%)
-10. **Loops and Conditional Statements** (6%)
+- **Foundations of Computational Thinking and Programming: 25%**
+  - Computational Thinking Skills, and Collaboration/Teamwork
+  - Specific Functions and Naming Conventions
+  - In-line Comments and Computational Thinking
 
-**Instructions:**
+- **Core Programming Constructs: 25%**
+  - Loops and Conditional Statements
+  - Searching
+  - Bubble Sort
+
+- **Data Structures and Operations: 20%**
+  - Lists and Parallel Lists
+  - Dictionaries
+
+- **Error Management and Debugging: 10%**
+  - Error Handling
+
+- **File and Data Manipulation and Interface Design: 20%**
+  - File Input/Output
+  - Random Module Usage
+  - CLI User Interface Design
+
+---
+
+#### Instructions
 - **Select a Problem**: Choose a real-life problem to address. Ensure it is something both partners are passionate about and can contribute to solving.
 - **Plan Your Strategy**: Discuss and plan your approach, distributing tasks based on each partner’s strengths. Aim for a balanced workload where both members contribute equally.
 - **Code Collaboratively**: Practice paired programming, with one partner coding while the other reviews and suggests improvements in real-time. Switch roles regularly to maintain engagement and share perspectives.
@@ -30,10 +41,10 @@ Your project will be assessed based on the following criteria:
 - **Document Your Journey**: Keep detailed in-line comments and documentation to explain your thought process, design choices, and code functionality.
 - **Prepare a Joint Presentation**: Create a video presentation (5 to 7 minutes) that demonstrates your application, highlights the problem-solving process, and showcases the effectiveness of your collaboration.
 
-**Submission Requirements:**
-- The final source code of your application, fully commented for clarity and understanding.
-- A detailed page on your e-portfolio documenting your collaborative process, how you addressed each evaluation criterion, and the impact of your solution.
-- A video presentation (5 to 7 minutes) that effectively communicates your project's purpose, process, and performance.
+#### Submission Requirements:
+- The `final source code` of your application, fully commented for clarity and understanding.
+- A detailed page on your `e-portfolio` documenting your collaborative process, how you addressed each evaluation criterion, and the impact of your solution.
+- A `video` presentation (5 to 7 minutes) that effectively communicates your project's purpose, process, and performance.
 
 ---
 
@@ -46,6 +57,8 @@ Your project will be assessed based on the following criteria:
 | **Data Structures and Operations: (20%)**               | No use of lists, parallel lists, dictionaries, or sorting algorithms.                               | Basic use of lists or dictionaries without advanced features or operations. No implementation of sorting algorithms.                                     | Purposeful use of both lists and parallel lists with fundamental operations like adding, editing, and deleting. Correct use of dictionaries for storing and retrieving data, demonstrating understanding of key-value pairing. Basic implementation of Bubble Sort. | Efficient and meaningful use of lists and parallel lists in conjunction with advanced data structures and algorithms. Efficient use of dictionaries with operations like adding, updating, and deleting key-value pairs, and iterating over items. Good implementation of Bubble Sort, showing understanding of sorting algorithms. | Comprehensive use of lists and parallel lists integrated with other functionalities like searching and advanced sorting, demonstrating advanced understanding and application. Advanced use of dictionaries, including nested structures, comprehensions, and methods like `.get()`, `.keys()`, `.values()`, and `.items()`, integrated effectively within the program’s logic. Exceptional implementation of Bubble Sort and other sorting algorithms, demonstrating a deep understanding of sorting mechanisms and their practical application in data structures. |
 | **Error Management and Debugging: (10%)**              | No error handling implemented.                                                                       | Minimal error handling with limited user feedback.                                                                                                         | Basic error handling using built-in structures with some meaningful user feedback.                                                                                      | Advanced error handling strategies integrated with program functionalities, improving user experience and program robustness.                                                  | Comprehensive and thoughtful error handling across the program, ensuring robustness and providing clear, helpful user feedback.                                                                                        |
 | **File and Data Manipulation and Interface Design: (20%)** | No implementation of file input/output or use of the random module.                                 | Incomplete or erroneous implementation of file input/output, minimal and ineffective use of the random module.                                             | Basic functionality for writing to and reading from a single file. Meaningful use of the random module at least once, enhancing functionality.                         | Efficient use of file input/output with error handling, reading from, and writing to files seamlessly. Uses the random module effectively in various parts of the program, showing understanding and application in a practical context. | Advanced handling of multiple file operations, integrating well with the rest of the program’s functionality. Meaningful and practical use of the random module, utilizing functions like `random.randint()` and `random.choice()` in conjunction with other algorithms and functions. |
+
+---
 
 <details>
 
@@ -124,6 +137,11 @@ Your project will be assessed based on the following criteria:
 </details>
 
 ---
+
+<details>
+
+<summary>Example Functions</summary>
+
 
 ### Add Student Function
 
@@ -626,3 +644,4 @@ def manage_students():
 # manage_students()
 ```
 
+</details>
