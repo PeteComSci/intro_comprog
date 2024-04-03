@@ -42,8 +42,8 @@ Your project will be assessed based on the following criteria:
 - **Prepare a Joint Presentation**: Create a video presentation (5 to 7 minutes) that demonstrates your application, highlights the problem-solving process, and showcases the effectiveness of your collaboration.
 
 #### Submission Requirements:
-- The `final source code` of your application, fully commented for clarity and understanding.
-- A detailed page on your `e-portfolio` documenting your collaborative process, how you addressed each evaluation criterion, and the impact of your solution.
+- The `final source code (.py file)` of your application, fully commented for clarity and understanding.
+- A detailed page on your `individual e-portfolio` documenting your collaborative process, how you addressed each evaluation criterion, and the impact of your solution.
 - A `video` presentation (5 to 7 minutes) that effectively communicates your project's purpose, process, and performance.
 
 ---
