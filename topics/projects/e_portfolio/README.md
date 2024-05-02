@@ -72,3 +72,37 @@ This project is an opportunity to showcase your comprehensive understanding of t
 - **Brainstorming:** The AI Chatbot can be used to help generate ideas for project components such as features, UI/UX designs, or flowchart logic. Students should use these sessions to expand their creative thinking and explore diverse solutions.
 - **Learning New Skills:** Students are encouraged to use the AI Chatbot to learn new programming concepts or refine their skills. The chatbot can provide explanations, examples, or resources on advanced topics, enhancing their learning experience.
 - **Ethical Use:** Students must ensure they use the AI Chatbot ethically. This includes not using the chatbot to perform tasks they are assigned to complete themselves, like writing chunks of code for their projects directly. It’s important to use the tool for learning and assistance, not to replace their own work.
+
+---
+
+### Task Division and Management Guidelines
+
+**1. Understanding Roles and Responsibilities:**
+   - **Define Roles Early:** At the beginning of the project, each group should hold a meeting to discuss and assign roles based on individual strengths and interests. Common roles might include:
+     - **Project Manager:** Oversees the project timeline, ensures milestones are met, and coordinates the team.
+     - **Lead Developer:** Responsible for the major coding tasks and technical challenges.
+     - **UI/UX Designer:** Focuses on the design of the app, including creating wireframes and ensuring user-friendliness.
+     - **Quality Assurance:** Manages testing phases, ensures the app meets the initial objectives, and handles debugging.
+     - **Documentation Specialist:** In charge of compiling all written materials, including the user manual and project documentation.
+   - **Rotate Roles:** If feasible, consider rotating roles mid-project to give everyone a chance to develop different skills.
+
+**2. Task Breakdown and Assignment:**
+   - **Divide the Project Into Phases:** Use the SDLC stages (Planning, Analysis, Design, Implementation,and Evaluation/Maintenance) as a guide to break the project into manageable tasks.
+   - **Assign Tasks:** Assign tasks to individuals based on their roles. Ensure that each task is clearly defined with expected outcomes to prevent overlap and confusion.
+
+**3. Planning and Scheduling:**
+   - **Create a Timeline:** Develop a detailed timeline with specific deadlines for each phase of the project. Use tools like Google Calendar or Trello to track progress and deadlines.
+   - **Regular Check-Ins:** Schedule regular meetings to update on progress, discuss challenges, and adjust roles and tasks as needed. These check-ins are crucial for keeping the project on track and ensuring that no member is overwhelmed or under-engaged.
+
+**4. Collaborative Work and Communication:**
+   - **Use Collaboration Tools:** Utilize tools like Google Docs for collaborative writing, GitHub or GitLab for code sharing and version control, and Slack or Discord for communication.
+   - **Clear Communication:** Maintain clear and open communication within the group. Encourage members to speak up about challenges or ideas, and ensure that all voices are heard.
+
+**5. Documentation and Reporting:**
+   - **Document Continuously:** Ensure that the Documentation Specialist keeps detailed records of all phases, decisions made, and the rationale behind them. This should include meeting notes, changes in the project plan, and feedback from tests.
+   - **Prepare for the Final Presentation:** As the project nears completion, begin preparing for the final video presentation. This should involve a rehearsal to refine the delivery and ensure that the presentation is cohesive and each member’s contributions are clearly articulated.
+
+**6. Ethical Considerations and AI Use:**
+   - **Responsible AI Usage:** When using AI tools like a chatbot for debugging or brainstorming, ensure that its use adheres to ethical standards. The AI should assist in enhancing learning and creativity, not replace the students' own efforts.
+   - **Acknowledge AI Contributions:** Clearly acknowledge any insights or help received from AI tools in the project documentation to maintain transparency.
+
